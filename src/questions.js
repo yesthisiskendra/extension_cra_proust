@@ -2,7 +2,7 @@ const questions = [
   {
     id: 1,
     question: "What is your idea of perfect happiness?",
-    completed: true,
+    completed: false,
   },
   { id: 2, question: "What is your greatest fear?", completed: false },
   {
@@ -13,7 +13,7 @@ const questions = [
   {
     id: 4,
     question: "What is the trait you most deplore in others?",
-    completed: true,
+    completed: false,
   },
   {
     id: 5,
