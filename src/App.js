@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import useQuestions from "./hooks/useQuestions";
 import "./App.css";
 
