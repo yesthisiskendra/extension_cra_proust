@@ -10,7 +10,6 @@ function App() {
       <h1>Proust Prompts</h1>
       {questions.map((question) => (
         <div className="question">
-          <p>{question.question}</p>
           <input
             type="checkbox"
             checked={question.completed}
@@ -18,6 +17,7 @@ function App() {
               setQuestionCompleted(question.id, !question.completed)
             }
           />
+          <p>{question.question}</p>
         </div>
       ))}
     </div>
